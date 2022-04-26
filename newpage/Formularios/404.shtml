@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="Imagenes/claudio.jpg"/>
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: "montserrat",sans-serif;
+            min-height: 100vh;
+            background-image: linear-gradient(125deg, #f2ae72, #FFA07A);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container 
+        {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: #343434;
+        }
+
+        .container h1
+        {
+            font-size: 200px;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: black;
+        }
+
+        p, h2
+        {
+            color: black;
+        }
+
+        .container a
+        {
+            text-decoration: none;
+            background: #e55039aa;
+            color: #fff;
+            padding: 12px;
+            display: inline-block;
+            border-radius: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .img-1
+        {
+            height: 100px;
+            width: 100px;
+            margin: ;
+            position: absolute;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <strong><h2> Vaya, ésta página no está disponible </h2></strong>
+        <img src="../Imagenes/1.png" class="img-1">
+
+        <h1>404</h1>
+
+        <strong><p>Esta página esta temporalmente fuera de servicio o el link esta roto</p></strong>
+
+        <a href="../Index.html"> Volver a la página principal </a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Login </title>
+    <link rel="stylesheet" type="text/css" href="../Estilos/Style_Login.css">
+    <link rel="icon" type="image/png"  href="../Imagenes/claudio.jpg">
+    
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="../Imagenes/Logo.jpg" class="avatar" alt="Imagen">
+      <h1> Login </h1>
+        <form action="../../proyecto/home.html">
+
+        <!-- USUARIO -->
+
+        <label for="username"> Nombre </label>
+        <input type="text" placeholder="Ingresar Usuario" required>
+
+        <!-- CONTRASEÑA -->
+
+        <label for="password"> Contraseña </label>
+        <input type="password" placeholder="Ingresar Contraseña" pattern=".{8,}" required>
+        <input type="submit" value="Iniciar Sesión">
+        <a href="#"> ¿Perdiste tu contraseña?</a>
+        <br>
+        <a href="../Formularios/Registro.html"> Crear cuenta </a> 
+        <br>
+        <center><a href="../index.html" style="font-size: 15px">Volver a la página principal</a></center>
+      </form>
+    </div>
+  </body>
+</html>
